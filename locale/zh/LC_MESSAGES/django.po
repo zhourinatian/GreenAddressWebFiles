@@ -19,23 +19,23 @@ msgstr "钱包"
 #: templates/wallet/partials/wallet_receive.html:20
 #: templates/wallet/wallet.html:54 templates/wallet/wallet.html:56
 msgid "WARNING"
-msgstr "WARNING"
+msgstr "警告"
 
 #: templates/wallet/wallet.html:54
 msgid ""
 "You have no two factor authentication set up. Please set it up in <a "
 "href=\"#/settings\">settings</a>."
 msgstr ""
-"You have no two factor authentication set up. Please set it up in <a "
+"您还没有添加两步验证。 请在设置中添加 <a "
 "href=\"#/settings\">settings</a>."
 
 #: templates/wallet/wallet.html:57
 msgid "You have not verified that you have backed up your mnemonic."
-msgstr "You have not verified that you have backed up your mnemonic."
+msgstr "您还没有验证您拥有恢复密语。"
 
 #: templates/wallet/wallet.html:58
 msgid "Please verify now by clicking here."
-msgstr "Please verify now by clicking here."
+msgstr "立即验证请点击这里。"
 
 #: templates/wallet/partials/wallet_modal_tx_limits.html:11
 #: templates/wallet/partials/wallet_settings.html:163
@@ -48,7 +48,7 @@ msgstr "请注意"
 #: templates/wallet/wallet.html:64
 #, fuzzy
 msgid "Hide this message by clicking here."
-msgstr "Please verify now by clicking here."
+msgstr "点击此处隐藏该消息。"
 
 #: templates/wallet/nav.html:4 templates/wallet/nav.html:11
 #: templates/wallet/partials/wallet_settings.html:113
@@ -92,7 +92,7 @@ msgstr "安全"
 #: templates/wallet/partials/wallet_settings.html:644
 #, fuzzy
 msgid "Accounts"
-msgstr "添加帐户"
+msgstr "帐户"
 
 #: templates/wallet/nav.html:15
 #: templates/wallet/partials/wallet_modal_logout.html:11
@@ -124,11 +124,11 @@ msgstr "未知国家"
 
 #: templates/wallet/partials/wallet_transactions_table.html:1
 msgid "New transactions! Sort by descending date to see them."
-msgstr "New transactions! Sort by descending date to see them."
+msgstr "新的交易！请按降序查看。"
 
 #: templates/wallet/partials/wallet_transactions_table.html:2
 msgid "Newly confirmed transactions! Sort by descending date to see them."
-msgstr "Newly confirmed transactions! Sort by descending date to see them."
+msgstr "新的确认交易！请按降序查看。"
 
 #: templates/wallet/partials/wallet_transactions_table.html:8
 msgid "Date"
@@ -141,7 +141,7 @@ msgstr "简介"
 
 #: templates/wallet/partials/wallet_transactions_table.html:11
 msgid "Value"
-msgstr ""
+msgstr "价值"
 
 #: templates/wallet/partials/wallet_address_book.html:35
 #: templates/wallet/partials/wallet_transactions_table.html:18
@@ -154,7 +154,7 @@ msgstr "即时 GreenAddress 认证"
 
 #: templates/wallet/partials/wallet_transactions_table.html:37
 msgid "double spend"
-msgstr "double spend"
+msgstr "双份花费"
 
 #: templates/wallet/partials/wallet_transactions_table.html:38
 msgid "replaceable"
@@ -163,11 +163,11 @@ msgstr ""
 #: templates/wallet/partials/wallet_transactions_table.html:39
 #: templates/wallet/partials/wallet_transactions_table.html:40
 msgid "updated"
-msgstr ""
+msgstr "已更新"
 
 #: templates/wallet/partials/wallet_transactions_table.html:41
 msgid "unconfirmed"
-msgstr "未确认的"
+msgstr "未确认"
 
 #: templates/wallet/partials/wallet_transactions_table.html:42
 msgid "confirmations"
@@ -175,35 +175,35 @@ msgstr "确认"
 
 #: templates/wallet/partials/wallet_transactions_table.html:46
 msgid "bump fee"
-msgstr ""
+msgstr "增加交易费"
 
 #: templates/wallet/partials/wallet_transactions_table.html:50
 msgid "Choose required estimated number of confirmations:"
-msgstr ""
+msgstr "选择所需的确认数量："
 
 #: templates/wallet/partials/wallet_transactions_table.html:51
 msgid "Current estimate"
-msgstr ""
+msgstr "当前预计"
 
 #: templates/wallet/partials/wallet_transactions_table.html:61
 msgid "Fee already at 1-conf-estimate level. Choose new fee:"
-msgstr ""
+msgstr "交易费已经预计1个确认。更改新的交易费："
 
 #: templates/wallet/partials/wallet_transactions_table.html:63
 msgid "1.5x current fee"
-msgstr ""
+msgstr "1.5倍当前交易费"
 
 #: templates/wallet/partials/wallet_transactions_table.html:64
 msgid "2x current fee"
-msgstr ""
+msgstr "2倍当前交易费"
 
 #: templates/wallet/partials/wallet_transactions_table.html:65
 msgid "3x current fee"
-msgstr ""
+msgstr "3倍当前交易费"
 
 #: templates/wallet/partials/wallet_transactions_table.html:69
 msgid "show replaced"
-msgstr ""
+msgstr "更换显示"
 
 #: templates/wallet/partials/wallet_transactions_table.html:74
 msgid "take funds back"
@@ -212,20 +212,20 @@ msgstr "收回资金"
 #: templates/wallet/partials/wallet_transactions_table.html:80
 #, fuzzy
 msgid "Replaced transactions:"
-msgstr "Raw transaction"
+msgstr "替代交易："
 
 #: templates/wallet/partials/wallet_transactions_table.html:118
 #, fuzzy
 msgid "Loading transactions, please wait..."
-msgstr "Logging in, please wait..."
+msgstr "加载交易，请稍等..."
 
 #: templates/wallet/partials/wallet_transactions_table.html:121
 msgid "No transactions found..."
-msgstr "找不到交易记录..."
+msgstr "无交易记录..."
 
 #: templates/wallet/partials/wallet_transactions_table.html:124
 msgid "Show more transactions..."
-msgstr "Show more transactions..."
+msgstr "显示更多交易..."
 
 #: templates/wallet/partials/signup_0_warning.html:8
 msgid ""
@@ -263,16 +263,14 @@ msgid ""
 "Please see the link to Google Play store, Chrome Web Store or AppStore "
 "below"
 msgstr ""
-"Please see the link to Google Play store, Chrome Web Store or AppStore "
-"below"
+"请在下方链接查看Google Play商店、Chrome商店和Apple应用商店"
 
 #: templates/wallet/partials/signup_0_warning.html:26
 msgid "Continue using web page"
-msgstr "继续使用 web 页"
+msgstr "继续使用网页"
 
 #: templates/wallet/partials/wallet_modal_remove_account.html:2
-msgid ""
-"Are you sure you want to permanently remove your wallet and all "
+msgid "Are you sure you want to permanently remove your wallet and all "
 "associated data from our servers?"
 msgstr "你确定你想要从我们的服务器中永久删除你的钱包和所有相关联的数据？"
 
@@ -336,7 +334,7 @@ msgstr "交易次数"
 #: templates/wallet/partials/wallet_modal_my_addresses.html:17
 #, fuzzy
 msgid "Show more addresses"
-msgstr "显示先前生成的地址"
+msgstr "显示更多地址"
 
 #: templates/wallet/partials/signup_nfc_modal.html:16
 #: templates/wallet/partials/signup_qr_modal.html:7
@@ -377,7 +375,7 @@ msgstr "请提供用户名和密码。"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:8
 msgid "Enter your username"
-msgstr "输入您的用户名"
+msgstr "请输入您的用户名"
 
 #: templates/wallet/partials/wallet_modal_custom_login.html:14
 msgid "Enter your password"
@@ -393,31 +391,31 @@ msgstr "好的"
 
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:2
 msgid "Confirm changing the pricing source"
-msgstr "Confirm changing the pricing source"
+msgstr "确认更改汇率来源"
 
 #: templates/wallet/partials/wallet_modal_tx_limits_fiat_warning.html:5
 msgid ""
 "Changing the pricing source while using it for transaction limits will "
 "result in resetting the limits to 0. Do you want to proceed?"
 msgstr ""
-"Changing the pricing source while using it for transaction limits will "
+"改变定价源，而使用它的交易限制将导致重置限额为0。您要继续吗？"
 "result in resetting the limits to 0. Do you want to proceed?"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:3
 msgid ""
 "Your Hardware Wallet is already set up. You must wipe it to write "
 "GreenAddress mnemonic to it. Do you want to wipe?"
-msgstr ""
+msgstr "您的硬件钱包已经设置好了。您必须擦除它才能写入GreenAddress助记符。现在擦除吗？"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:4
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:9
 msgid "No"
-msgstr ""
+msgstr "否"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:5
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:10
 msgid "Yes"
-msgstr ""
+msgstr "是"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:8
 msgid ""
@@ -429,34 +427,35 @@ msgid ""
 "GreenAddress, because we don't support non-multisig "
 "transactions.</strong> Do you want to reuse existing seed?"
 msgstr ""
+"您的硬件钱包已经设置好了。"
+"要与GreenAddress一起使用，您可以重新设置，也可以使用现有的钱包种子。"
+"要重置它，请转到myTREZOR或等同的，并使用高级细节的“擦除设备”功能。你想使用现有的种子吗？"
+"<strong>注意：如果您使用它，则无法在GreenAddress中执行myTREZOR事务，因为我们不支持非多重事务。</strong>"
+"是否要重新使用现有的种子？"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:13
 #, fuzzy
 msgid ""
 "Empty Hardware Wallet detected successfully. Click the button below to "
 "store your seed on it."
-msgstr ""
-"Empty BTChip detected successfully. Click the button below to store your "
-"seed on it."
+msgstr "已成功检测到空硬件钱包。 点击下面的按钮将您的种子存储在其上。"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:14
 #, fuzzy
 msgid ""
 "Empty Hardware Wallet detected successfully. Click the button below to "
 "set it up."
-msgstr ""
-"Empty BTChip detected successfully. Click the button below to store your "
-"seed on it."
+msgstr "已成功检测到空硬件钱包。 点击下面的按钮进行设置。"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:15
 #, fuzzy
 msgid "Save to Hardware Wallet"
-msgstr "Write to a hardware wallet"
+msgstr "保存到硬件钱包"
 
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:16
 #, fuzzy
 msgid "Set up Hardware Wallet"
-msgstr "Write to a hardware wallet"
+msgstr "设置硬件钱包"
 
 #: templates/wallet/partials/signup_2_2factor.html:25
 #: templates/wallet/partials/signup_3_pin.html:37
@@ -468,7 +467,7 @@ msgstr "正在生成你的钱包钥匙，请稍候"
 #: templates/wallet/partials/wallet_modal_trezor_setup.html:22
 #, fuzzy
 msgid "Hardware Wallet setup successful!"
-msgstr "BTChip setup successful!"
+msgstr "硬件钱包设置成功！"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:2
 msgid "Transaction details"
@@ -487,7 +486,7 @@ msgstr "哈希"
 #: templates/wallet/partials/wallet_modal_tx_details.html:13
 #: templates/wallet/partials/wallet_send.html:173
 msgid "Memo"
-msgstr "Memo"
+msgstr "备注"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:21
 #: templates/wallet/partials/wallet_modal_tx_limits.html:41
@@ -505,7 +504,7 @@ msgstr "地址"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:29
 msgid "Edit"
-msgstr ""
+msgstr "编辑"
 
 #: templates/wallet/partials/wallet_modal_confirm_tx.html:23
 #: templates/wallet/partials/wallet_modal_tx_details.html:33
@@ -515,31 +514,31 @@ msgstr "费用"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:33
 msgid "Size (bytes)"
-msgstr ""
+msgstr "大小（字节）"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:33
 msgid "Fee per kB"
-msgstr ""
+msgstr "每kB费用"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:39
 msgid "Estimated number of confirmations required:"
-msgstr ""
+msgstr "预计所需确认数量："
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:43
 msgid "Raw transaction"
-msgstr "Raw transaction"
+msgstr "原始交易"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:46
 msgid "Double spend by txhash"
-msgstr "Double spend by txhash"
+msgstr "双重花费到txhash"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:49
 msgid "Payment request"
-msgstr "Payment request"
+msgstr "付钱请求"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:51
 msgid "download"
-msgstr "download"
+msgstr "下载"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:57
 msgid "Inputs"
@@ -549,7 +548,8 @@ msgstr "输入"
 msgid ""
 "The inputs below are only the first 10 inputs of this transaction. To see"
 " all of them, use a block explorer."
-msgstr ""
+msgstr "以下输入仅为本交易的前10个输入。"
+"要查看所有这些，请使用块资源管理器。"
 
 #: templates/wallet/partials/wallet_modal_confirm_tx.html:17
 #: templates/wallet/partials/wallet_modal_tx_details.html:60
@@ -569,17 +569,18 @@ msgstr "金额"
 #: templates/wallet/partials/wallet_modal_tx_details.html:69
 #: templates/wallet/partials/wallet_modal_tx_details.html:87
 msgid "Confidential"
-msgstr ""
+msgstr "机密"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:75
 msgid "Outputs"
-msgstr "产出"
+msgstr "输出"
 
 #: templates/wallet/partials/wallet_modal_tx_details.html:76
 msgid ""
 "The outputs below are only the first 10 outputs of this transaction. To "
 "see all of them, use a block explorer."
-msgstr ""
+msgstr "以下输出仅为交易的前10个输出。"
+"要查看所有这些，请使用块资源管理器。"
 
 #: templates/wallet/partials/wallet_modal_pin.html:4
 #, fuzzy
@@ -587,24 +588,24 @@ msgid ""
 "You can create a 4-to-15-digit personal identification number used to "
 "retrieve the password encrypting the mnemonic passphrase."
 msgstr ""
-"You can create a 4-digit personal identification number used to retrieve "
-"the password encrypting the mnemonic passphrase."
+"您可以创建一个4到15位数的个人识别号码，"
+"用于检索加密助记密码的密码。"
 
 #: templates/wallet/partials/signuplogin/base.html:23
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:8
 #: templates/wallet/partials/wallet_modal_pin.html:8
 msgid "Enter your PIN"
-msgstr "请输入您的 PIN"
+msgstr "请输入您的PIN"
 
 #: templates/wallet/partials/wallet_modal_pin.html:14
 #, fuzzy
 msgid "PIN must be a 4-to-15-digit number"
-msgstr "PIN must be a 4-to-32-digit number"
+msgstr "PIN必须是4到15位数字"
 
 #: templates/wallet/partials/wallet_modal_btchip_pin.html:23
 #: templates/wallet/partials/wallet_modal_pin.html:23
 msgid "Confirm PIN number"
-msgstr "确认 PIN 号码"
+msgstr "确认PIN号码"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:3
 msgid ""
@@ -612,27 +613,29 @@ msgid ""
 "reset it. Do you want to reset your Ledger? This will be performed by "
 "entering wrong PIN 3 times in a row. <strong>You will lose your keys "
 "currently stored on the device.</strong>"
-msgstr ""
+msgstr "您的分类帐已经设置好了。要使用它与GreenAddress，您需要重置它。"
+"你想重置你的分类帐吗？这将通过连续输入错误的PIN 3次来执行。"
+"<strong>您将丢失当前存储在设备上的密钥。</strong>"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:4
 msgid "Reset my Ledger"
-msgstr ""
+msgstr "重置我的分类帐"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:5
 msgid "Reuse current setup"
-msgstr ""
+msgstr "重用当前设置"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:6
 msgid "Resetting..."
-msgstr "Resetting..."
+msgstr "重设..."
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:7
 msgid "Please unplug and plug your device in again"
-msgstr "Please unplug and plug your device in again"
+msgstr "请拔下并重新插上设备"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:7
 msgid "wrong PINs remaining"
-msgstr "wrong PINs remaining"
+msgstr "PIN错误"
 
 #: templates/wallet/partials/wallet_modal_btchip_setup.html:10
 #, fuzzy
@@ -2302,7 +2305,7 @@ msgstr "博客"
 
 #: templates/base/base.html:119
 msgid "API"
-msgstr ""
+msgstr "API接口"
 
 #: templates/base/base.html:121
 msgid "Login"
